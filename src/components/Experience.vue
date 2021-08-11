@@ -41,8 +41,24 @@ export default {
       search: '',
       entries: [
         {
+          company: 'Atlassian - Bitbucket',
+          title: 'Software Engineer Intern',
+          dates: {
+            startDate: 'May 2021',
+            endDate: 'August 2021',
+          },
+          overview: `Created feature for repository admins to define
+          a default branch deletion behavior for when branches are merged.`,
+          skills: [
+            'React and Python full coverage testing',
+            'Designing maintainable workflows',
+            'Refining project scope and estimating project needs',
+            'Writing documentation for customers to learn about new feature',
+          ],
+        },
+        {
           company: 'Google',
-          title: 'Software Engineering Intern',
+          title: 'Software Engineer Intern',
           dates: {
             startDate: 'May 2020',
             endDate: 'August 2020',
@@ -83,7 +99,7 @@ export default {
         },
         {
           company: 'Oak Ridge National Laboratory',
-          title: 'Software Engineering Intern',
+          title: 'Software Engineer Intern',
           dates: {
             startDate: 'May 2019',
             endDate: 'August 2019',
@@ -99,7 +115,7 @@ export default {
         },
         {
           company: 'Oak Ridge National Laboratory',
-          title: 'Software Engineering Intern',
+          title: 'Software Engineer Intern',
           dates: {
             startDate: 'May 2018',
             endDate: 'August 2018',
